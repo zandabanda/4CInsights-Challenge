@@ -19,7 +19,7 @@ Install vagrant-berkshelf plugin
 * vagrant plugin install vagrant-berkshelf
 
 [ Prepare Python ]<br/>  
--- Ensure Python 3.5 or greater is installed for posting to Wordpress
+Ensure Python 3.5 or greater is installed for posting to Wordpress
 * pip3 install python-wordpress-xmlrpc
 
 
