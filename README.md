@@ -49,7 +49,7 @@ Ensure Python 3.5 or greater is installed for posting to Wordpress
 [ Post to site ]
 * cd 4CInsights-Challenge/wordpress  
 * chmod +x post2wordpress.py
-* ./post2wordpress.py "<plain text file with contents>" "<title of post>"
+* ./post2wordpress.py plainTextContent.file "<title of post>"
 
 -> check Site for post, http://localhost:8081
 
