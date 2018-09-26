@@ -17,6 +17,7 @@ https://www.virtualbox.org/wiki/Downloads - VirtualBox
 * vagrant plugin install vagrant-berkshelf
 
 [ Prepare Python ]
+* Ensure Python 3.5 or greater is installed for posting to Wordpress
 * pip3 install python-wordpress-xmlrpc
 
 
@@ -25,26 +26,27 @@ https://www.virtualbox.org/wiki/Downloads - VirtualBox
 
 
 # Testing
-* cd nginx-helloworld && vagrant up
-nginx - http://localhost:8080
+* cd 4CInsights-Challenge/nginx && vagrant up
+-> nginx Site - http://localhost:8080
+-> that's it!
 
-* cd wordpress && vagrant up
-wordpress - http://localhost:8081
+* cd 4CInsights-Challenge/wordpress && vagrant up
+-> wordpress Site - http://localhost:8081
 
-enter site = 4ctest 
-enter user = 4ctest
-enter pwd = 4ctest
+** enter site = 4ctest 
+** enter user = 4ctest
+** enter pwd = 4ctest
 
-* check box to confirm weak password for testing purposes
-* enter your email or a fake address (irrelelvant)
+* check box to confirm 'weak' password for testing purposes
+* enter your email
 
 login with user/pwd set above.
 
 
 [ Post to site ]
-* cd wordpress
-./post2wordpress.py <plain text file containing post> "<title of post>"
+* cd 4CInsights-Challenge/wordpress
+* ./post2wordpress.py <plain text file containing post> "<title of post>"
 
--> check site, http://localhost:8081
+-> check Site, http://localhost:8081
 
  
