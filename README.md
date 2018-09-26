@@ -11,14 +11,14 @@ Cerner Corporation
 https://www.vagrantup.com/downloads.html - Vagrant  
 https://www.virtualbox.org/wiki/Downloads - VirtualBox
 
-[ Prepare Vagrant ]  
--- Can pull ubuntu/trusty64 image to local machine before running, but not necessary.  
+[ Prepare Vagrant ]<br/> 
+Can pull ubuntu/trusty64 image to local machine before running, but not necessary.  
 * vagrant box add ubuntu/trusty64
 
--- Install vagrant-berkshelf plugin  
+Install vagrant-berkshelf plugin  
 * vagrant plugin install vagrant-berkshelf
 
-[ Prepare Python ]  
+[ Prepare Python ]<br/>  
 -- Ensure Python 3.5 or greater is installed for posting to Wordpress
 * pip3 install python-wordpress-xmlrpc
 
