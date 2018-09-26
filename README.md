@@ -1,1 +1,0 @@
-# 4CInsights-Challenge
