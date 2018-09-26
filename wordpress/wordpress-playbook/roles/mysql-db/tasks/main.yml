@@ -1,0 +1,21 @@
+---
+# tasks file for mysql-db
+
+- name: start mysql
+  action: service name=mysql state=started
+
+- name: mysql wordpress db creation
+  mysql_db:
+    login_user: "root"
+    login_password: "" 
+    name: my_wp_db 
+    state: present
+
+- name: mysql wordpress account creation
+  mysql_user:
+    login_user: "root"
+    login_password: ""
+    name: my_wp_db_user
+    password: my_wp_db_password
+    priv: "*.*:ALL"
+    state: present

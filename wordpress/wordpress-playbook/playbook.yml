@@ -1,0 +1,9 @@
+---
+
+- hosts: all
+  roles:
+   - base-install 
+   - mysql-db
+   - wordpress-app
+
+...

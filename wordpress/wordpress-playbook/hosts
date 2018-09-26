@@ -1,0 +1,2 @@
+[vagrant-trusty-ubuntu64]
+localhost ansible_connection=local
