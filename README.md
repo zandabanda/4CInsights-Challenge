@@ -6,9 +6,9 @@ Cerner Corporation
 
 # Prerequisites
 
-[ Install Vagrant, VirtualBox, Python 2.7 / 3.7 + Modules ]
+[ Install Vagrant, VirtualBox, Python 3 + Modules ]
 
-https://www.vagrantup.com/downloads.html - Vagrant
+https://www.vagrantup.com/downloads.html - Vagrant  
 https://www.virtualbox.org/wiki/Downloads - VirtualBox
 
 [ Prepare Vagrant ]  
@@ -18,7 +18,7 @@ https://www.virtualbox.org/wiki/Downloads - VirtualBox
 -- Install vagrant-berkshelf plugin  
 * vagrant plugin install vagrant-berkshelf
 
-[ Prepare Python ]
+[ Prepare Python ]  
 -- Ensure Python 3.5 or greater is installed for posting to Wordpress
 * pip3 install python-wordpress-xmlrpc
 
@@ -47,9 +47,10 @@ https://www.virtualbox.org/wiki/Downloads - VirtualBox
 - login with user/pwd set above.  
 
 [ Post to site ]
-* cd 4CInsights-Challenge/wordpress
+* cd 4CInsights-Challenge/wordpress  
+* chmod +x post2wordpress.py
 * ./post2wordpress.py <plain text file containing post> "<title of post>"
 
--> check Site, http://localhost:8081
+-> check Site for post, http://localhost:8081
 
  
