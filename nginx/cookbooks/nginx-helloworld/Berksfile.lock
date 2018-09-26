@@ -1,0 +1,17 @@
+DEPENDENCIES
+  apt
+    git: https://github.com/chef-cookbooks/apt.git
+    revision: 5016549b90785bd965478b567222a6c2ffaccca4
+  docker
+    git: https://github.com/chef-cookbooks/docker.git
+    revision: 5b0faf4fa794c3eb1fba510d134ec0c0cdbb88dd
+  nginx-helloworld
+    path: .
+    metadata: true
+
+GRAPH
+  apt (7.1.0)
+  docker (4.6.6)
+  nginx-helloworld (0.1.0)
+    apt (>= 0.0.0)
+    docker (>= 0.0.0)

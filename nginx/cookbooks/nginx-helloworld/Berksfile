@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+source 'https://supermarket.chef.io'
+
+metadata
+
+#cookbook "apt", path: "berks-cookbooks"
+#cookbook "docker", path: "berks-cookbooks"
+
+cookbook "apt", github: "chef-cookbooks/apt"
+cookbook "docker", github: "chef-cookbooks/docker"
+
