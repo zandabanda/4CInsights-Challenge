@@ -1,5 +1,7 @@
 # Author
-Zander Hamidi, System Engineer, Cerner Corporation
+Zander Hamidi  
+System Engineer  
+Cerner Corporation
 
 
 # Prerequisites
@@ -10,10 +12,10 @@ https://www.vagrantup.com/downloads.html - Vagrant
 https://www.virtualbox.org/wiki/Downloads - VirtualBox
 
 [ Prepare Vagrant ]
--- Can pull ubuntu/trusty64 image to local machine before running, but not necessary.
+-- Can pull ubuntu/trusty64 image to local machine before running, but not necessary.  
 * vagrant box add ubuntu/trusty64
 
--- Install vagrant-berkshelf plugin
+-- Install vagrant-berkshelf plugin  
 * vagrant plugin install vagrant-berkshelf
 
 [ Prepare Python ]
