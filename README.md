@@ -11,14 +11,14 @@ Cerner Corporation
 https://www.vagrantup.com/downloads.html - Vagrant  
 https://www.virtualbox.org/wiki/Downloads - VirtualBox
 
-[ Prepare Vagrant ]<br/> 
+[ Prepare Vagrant ]<br/>  
 Can pull ubuntu/trusty64 image to local machine before running, but not necessary.  
 * vagrant box add ubuntu/trusty64
 
 Install vagrant-berkshelf plugin  
 * vagrant plugin install vagrant-berkshelf
 
-[ Prepare Python ]<br/>  
+[ Prepare Python ]<br/>   
 Ensure Python 3.5 or greater is installed for posting to Wordpress
 * pip3 install python-wordpress-xmlrpc
 
@@ -49,7 +49,7 @@ Ensure Python 3.5 or greater is installed for posting to Wordpress
 [ Post to site ]
 * cd 4CInsights-Challenge/wordpress  
 * chmod +x post2wordpress.py
-* ./post2wordpress.py <plain text file containing post> "<title of post>"
+* ./post2wordpress.py "<plain text file with contents>" "<title of post>"
 
 -> check Site for post, http://localhost:8081
 
