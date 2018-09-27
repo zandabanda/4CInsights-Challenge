@@ -29,6 +29,9 @@ Ensure Python 3.5 or greater is installed for posting to Wordpress
 
 # Testing
 
+* please make sure ports 8080/8081 are open and listening without other processes attached to them
+-> kill $(lsof -t -i:<8080|8081>)
+
 [Launch Nginx Hello World Site]    
 * cd 4CInsights-Challenge/nginx && vagrant up  
 -> nginx Site - http://localhost:8080  
