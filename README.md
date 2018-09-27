@@ -39,6 +39,7 @@ Ensure Python 3.5 or greater is installed for posting to Wordpress
 
 [Launch Wordpress Site]  
 * cd 4CInsights-Challenge/wordpress && vagrant up  
+
 -> wordpress Site - http://localhost:8081
 
 [Install Wordpress Site]  
