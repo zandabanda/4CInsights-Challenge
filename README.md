@@ -20,38 +20,31 @@ Ensure Python 3.5 or greater is installed for posting to Wordpress
 * pip3 install python-wordpress-xmlrpc
 
 
-[ Fork zandabanda/4CInsights-Challenge repo ]
-* git clone https://github.com/zandabanda/4CInsights-Challenge
-
-
 # Testing
 
 * please make sure ports 8080/8081 are open and listening without other processes attached to them  
 -> kill $(lsof -t -i:<8080|8081>)  
 
 [Launch Nginx Hello World Site]    
-* cd 4CInsights-Challenge/nginx && vagrant up  
+* cd wordpress-deploy-template/nginx && vagrant up  
 -> nginx Site - http://localhost:8080  
--> that's it!
 
 [Launch Wordpress Site]  
-* cd 4CInsights-Challenge/wordpress && vagrant up  
+* cd wordpress-deploy-template/wordpress && vagrant up  
 
 -> wordpress Site - http://localhost:8081
 
 [Install Wordpress Site]  
-- enter site = 4ctest   
-- enter user = 4ctest  
-- enter pwd = 4ctest  
+- site = 4ctest, user = 4ctest, pwd = 4ctest
 - check box to confirm 'weak' password for testing purposes  
 - enter your email  
-- login with user/pwd set above.  
+- login 
 
 [ Post to site ]
-* cd 4CInsights-Challenge/wordpress  
+* cd wordpress-deploy-template/wordpress  
 * chmod +x post2wordpress.py
 * ./post2wordpress.py plainTextContent.file "title of post"
 
--> check Site for post, http://localhost:8081
+-> check Site
 
  
