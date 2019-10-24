@@ -1,8 +1,5 @@
 # Author
-Zander Hamidi  
-System Engineer  
-Cerner Corporation
-
+Zander Hamidi 
 
 # Prerequisites
 
